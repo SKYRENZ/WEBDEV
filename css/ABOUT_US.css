@@ -1,0 +1,10 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: var(--text-color);
+  }
+.container-fluid{
+    max-width: 1250px;
+    margin: auto;
+    width: 100%;
+}
