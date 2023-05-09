@@ -1,0 +1,58 @@
+/* know thy format */
+/* gawa ka flexbox */
+
+
+.h-firstG{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--container-color);
+    padding: 8px 14px;
+    border: 1px solid hsl(200 100% 99% / 5%);
+    margin-bottom: 2rem;
+}
+
+.SES_gen {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.SES_gen {
+    margin: auto;
+    padding: 10px;
+    height: 100vh;
+    width: 90vw;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    justify-content:left; 
+}
+
+.ses_mars { grid-area: 1 / 1 / 2 / 3; }
+.div2 { grid-area: 1 / 3 / 2 / 6; }
+.ses_info { grid-area: 2 / 1 / 5 / 4; }
+.ses_pics { grid-area: 2 / 4 / 5 / 6; }
+
+
+.First_GenZ {
+    margin: auto;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    display: grid;
+}
+
+.ses_mars {
+    margin: auto;
+}
+
+.ses_info {
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ses_h1 {
+    font-size: 45px;
+}
