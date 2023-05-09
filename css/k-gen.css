@@ -22,12 +22,9 @@
     margin: 0;
     height: 100vh;
     width: 150vh;
-    background: url("img/K-Pop Generations.jpg");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
     position: relative;
     left: 240px;
+    top: 80px;
 }
 
 .SES_gen {
@@ -69,11 +66,20 @@
     margin: auto;
 }
 
+.ses_pics {
+    margin: 0;
+    position: relative;
+    left: 10px;
+}
+
 .ses_h1 {
     font-size: 40px;
     color: rgb(233, 232, 232);
 }
 
+.members {
+    font-size: 40px;
+}
 .ses_members {
     font-size: 30px;
 }
