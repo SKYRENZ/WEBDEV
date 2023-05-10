@@ -1,0 +1,78 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem ;
+}
+:root {
+    --text-color:    #fcfeff;
+    }
+    img{
+        width: 100%;
+    }
+body{
+    background-color: rgba(20,20,20,255);
+}
+
+/* heading for responsive */
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--container-color);
+    padding: 8px 14px;
+    border: 1px solid hsl(200 100% 99% / 5%);
+    margin-bottom: 2rem;
+}
+.heading-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+/* heading for responsive */
+
+.COM-box{
+    position: relative;
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+}
+.com-box-img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.COM-box .title-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 14px;
+    background: linear-gradient(
+        8deg,
+        hsl(240 17% 14% / 74%) 14%,
+        hsl(240 17% 14% / 14%) 44%
+        );
+        overflow: hidden;
+}
+.com-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.swiper-button-next,
+.swiper-button-previous {
+    position: static !important; 
+    margin: 0 0 0 10px !important;
+}
+.swiper-button-next::after,
+.swiper-button-previous::after {
+    color: var(--text-color);
+    font-size: 18px !important;
+    font-weight: 700;
+}
