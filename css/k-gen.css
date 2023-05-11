@@ -132,7 +132,7 @@
 .Finkl {
     margin: auto;
     padding: 10px;
-    height: 175vh;
+    height: 135vh;
     width: 90vw;
     position: relative;
     top: 180px;
@@ -161,4 +161,12 @@
     border: 10px; 
     text-align: center;
     background-color: #2d2e37;
+}
+
+.Second_GenZ {
+    margin: auto;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    display: grid;
 }
