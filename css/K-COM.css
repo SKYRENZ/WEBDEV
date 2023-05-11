@@ -16,39 +16,69 @@ body{
     background-color: rgba(20,20,20,255);
 }
 
-/* heading for responsive */
+p{
+    color:#0c0202;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* heading for responsive start*/
 .heading{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: var(--container-color);
-    padding: 8px 14px;
+    padding: 8px 4px;
     border: 1px solid hsl(200 100% 99% / 5%);
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 .heading-title {
     font-size: 1.2rem;
     font-weight: 500;
 }
-/* heading for responsive */
+/* heading for responsive end*/
+
+
+/* company box */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
 .COM-box{
     position: relative;
-    width: 100%;
-    height: 380px;
+    width: 80rem;
+    height: 30rem;
     overflow: hidden;
-}
+    }
+
 .com-box-img{
-    width: 100%;
-    height: 100%;
-    object-fit:cover;
+    width: 19rem;
+    height: 18rem;
+    position:absolute;
+    left: 10%;
+    top: 20%;
+    border: 3px solid #0c0202;
 }
-.COM-box .title-text {
+.title-text {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.title-text .com-title {
     position: absolute;
     bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    left: 10%;
+    width: 80rem;
+    height: 30rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -60,11 +90,33 @@ body{
         );
         overflow: hidden;
 }
-.com-title {
-    font-size: 1.1rem;
-    font-weight: 500;
-}
 
+/*INFO AND LINKS CONTENT */
+.info1{
+    position: absolute;
+    top: 5%;
+    left: 35%;
+
+}
+.links1{
+    position:absolute;
+    top: 75%;
+    left: 35%;
+}
+.info2{
+    position: absolute;
+    bottom: 50%;
+    left: 35%;
+
+}
+.links2{
+    position:absolute;
+    top: 60%;
+    left: 35%;
+}
+/* company box end */
+
+/*button*/
 .swiper-button-next,
 .swiper-button-previous {
     position: static !important; 
@@ -76,3 +128,5 @@ body{
     font-size: 18px !important;
     font-weight: 700;
 }
+/*button*/
+
