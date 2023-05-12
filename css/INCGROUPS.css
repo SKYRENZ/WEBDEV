@@ -13,6 +13,7 @@
 
 body {
     overflow-x: hidden;
+    height: 160vh;
 }
 
 .flexbox {
@@ -41,6 +42,13 @@ body {
 
   .box:hover img {
     transform: scale(1.2);
+  }
+
+  .copyright1 {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top: 650px;
   }
 
   /* lagay mo names ng bawat group with shadow eme */
