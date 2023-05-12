@@ -49,7 +49,7 @@ justify-content: center;
     cursor: pointer;
     top:50%;
     left:2%;
-    transform: translate(0%, -50%);
+    transform: translate(10%, -50%);
 }
 form {
     position: absolute;
