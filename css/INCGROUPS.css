@@ -10,3 +10,37 @@
 :root {
 --text-color:    #fcfeff;
 }
+
+body {
+    overflow-x: hidden;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 120px;
+    left: 260px;
+    height: 800px;
+    gap: 40px;
+  }
+  
+  .box {
+    flex-basis: 33.33%;
+    height: 50%;
+    border: 1px ;
+    box-sizing: border-box;
+  }
+  
+.box img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+
+  .box:hover img {
+    transform: scale(1.2);
+  }
+
+  /* lagay mo names ng bawat group with shadow eme */
