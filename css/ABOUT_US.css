@@ -8,3 +8,19 @@ body {
     margin: auto;
     width: 100%;
 }
+
+.the_team {
+   position: relative;
+   left: 270px;
+    height: 900px;
+    width: 800px;
+    object-fit: cover;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 10px;
+  left: 900px;
+}
