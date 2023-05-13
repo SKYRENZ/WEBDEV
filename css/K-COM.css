@@ -45,7 +45,6 @@ p{
   }
 
 .swiper-slide {
-    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,16 +53,17 @@ p{
 
 .COM-box{
     position: relative;
-    width: 80rem;
-    height: 30rem;
+    width: 112rem;
+    height: 35rem;
     overflow: hidden;
+    background-color: #535463;
     }
 
 .com-box-img{
     width: 19rem;
     height: 18rem;
     position:absolute;
-    left: 10%;
+    left: 5%;
     top: 20%;
     border: 3px solid #0c0202;
 }
@@ -71,21 +71,25 @@ p{
     font-size: 1.1rem;
     font-weight: 500;
 }
-
-.title-text .com-title {
+.com-title{
+    position: absolute;
+    bottom: 20%;
+    left: 7%;
+}
+.title-text {
     position: absolute;
     bottom: 0;
-    left: 10%;
-    width: 80rem;
-    height: 30rem;
+    left: 0%;
+    width: 112rem;
+    height: 35rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     padding: 14px;
     background: linear-gradient(
         8deg,
-        hsl(240 17% 14% / 74%) 14%,
-        hsl(240 17% 14% / 14%) 44%
+        hsla(240, 11%, 36%, 0.74) 14%,
+        hsla(240, 11%, 37%, 0.14) 30%
         );
         overflow: hidden;
 }
@@ -93,9 +97,10 @@ p{
 /*INFO AND LINKS CONTENT */
 .info1{
     position: absolute;
-    top: 5%;
-    left: 35%;
-    color:#0c0202;
+    top: 29%;
+    left: 25%;
+    color:white;
+    font-weight:500;
     font-size: 20px;
     font-weight: bold;
 }
@@ -103,33 +108,33 @@ p{
     position:absolute;
     top: 75%;
     left: 35%;
-    color:#0c0202;
+    color:white;
     font-size: 20px;
     font-weight: bold;
     z-index: 2;
 }
 .info2{
     position: absolute;
-    bottom: 50%;
-    left: 35%;
-    color:#0c0202;
+    top: 32%;
+    left: 25%;
+    color:white;
     font-size: 20px;
     font-weight: bold;
 }
 .links2{
     position:absolute;
-    top: 60%;
+    top: 70%;
     left: 35%;
-    color:#0c0202;
+    color:white;
     font-size: 20px;
     font-weight: bold;
     z-index: 2;
 }
 .info3{
     position: absolute;
-    bottom: 40%;
-    left: 34.5%;
-    color:#0c0202;
+    top: 32%;
+    left: 25%;
+    color:white;
     font-size: 20px;
     font-weight: bold;
 
@@ -138,7 +143,7 @@ p{
     position:absolute;
     top: 70%;
     left: 35%;
-    color:#0c0202;
+    color:white;
     font-size: 20px;
     font-weight: bold;
     z-index: 2;
