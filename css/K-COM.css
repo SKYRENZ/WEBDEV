@@ -88,8 +88,8 @@ p{
     padding: 14px;
     background: linear-gradient(
         8deg,
-        hsl(240 17% 14% / 74%) 14%,
-        hsl(240 17% 14% / 14%) 30%
+        hsla(240, 11%, 36%, 0.74) 14%,
+        hsla(240, 11%, 37%, 0.14) 30%
         );
         overflow: hidden;
 }
