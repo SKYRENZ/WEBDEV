@@ -1,0 +1,75 @@
+.about-group-container {
+    justify-content: center;
+    position: flex;
+}
+
+.group-bg {
+    background-image: cover;
+    opacity: 10%;
+    position: absolute;
+}
+
+.grouplogoimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+}
+
+.group-logo {
+    position: relative;
+    width: auto;
+    height: 200px;
+}
+
+body {
+    background: var(--body-color);
+}
+
+#groupcontent {
+    color: white;
+}
+
+.groupintroductory {
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+#groupTitle {
+    color: white;
+    font-size: 4em;
+}
+
+.groupDesc {
+    justify-content: center;
+    margin: 3em 4.5em 3em 4.5em;
+}
+
+.social-sites {
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+  
+.social-sites li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+}
+  
+.social-sites li a {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgba(104, 252, 255, 255);
+    letter-spacing: .1rem;
+    font-size: 12px;
+    font-weight: bold;
+}
